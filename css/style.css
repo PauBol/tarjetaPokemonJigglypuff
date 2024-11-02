@@ -19,9 +19,13 @@ h2{
     /* border-style: solid; */
     border: solid 9px rgb(30, 255, 0);
     border-radius: 20px;
-    margin-top: 60px;
+    
 
-    margin-left: auto;
+    /* margin-left: auto; esto hace que la tarjeta se alinee hacia la izquierda, si lo quito se alinea a la derecha */
+    /* margin: auto; es general, por los 4 lados, se alinea al centro */
+    margin: auto;
+    /* margin-top: 60px; despues de margin para que tome la distancia arriba y se vea el cuadro con el nombre. */
+    margin-top: 60px;
     width: 268px;
     height: 520px
 }
@@ -30,7 +34,7 @@ h2{
     margin: auto;
     width: 80%;
     background-color:rgb(232, 162, 238);
-    border: 4px solid rgb(183, 226, 240);
+    border: 4px solid rgb(88, 217, 240);
     text-align: auto;
     border-radius: 10px;
     position: relative;
@@ -51,6 +55,3 @@ h2{
 div ul li{
     list-style: none;
 }
-
-
-
